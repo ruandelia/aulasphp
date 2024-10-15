@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variaveis e constantes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
 </head>
 <body>
     <h1>aprendendo variáveis constantes com PHP</h1>
@@ -31,5 +33,9 @@ const EMPRESA = "ABC tecnologia"; //nova, modern
 echo  "<p>"."o ".AUTOR." trabalha na ".EMPRESA."</p>"
 ?>
  <!-- fechando -->
+
+ <h2>Saida de dados simplificada/direta</h2>
+ <p>Estamos no <?= $curso ?> Em <?= $ano ?>.</p>
+ <p>o <?= AUTOR ?> trabalha na <?= EMPRESA?> .</p>  <!-- -->
 </body>
 </html>
