@@ -38,6 +38,9 @@
     <h2>olá! meu <span class="text-danger bg-danger-subtle">nome</span> é <span class="nomeC"><i><?=NOME?></i></span> <span style='color:ligrey'>e</span> tenho <span class="idadeC"><?=$idadeChapolin?></span> anos.</h2>
 
         <p class="qualquer" style="color: pink;">Qualquer coisa</p>
+
+        <p><span style="color: blue;">o</span> <span style="color:pink;">matheus</span> <span  >é</span> <span>viado</span> <span>
+        !!</span></p>
         
    
 </body>
