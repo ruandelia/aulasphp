@@ -34,15 +34,15 @@ echo "<p>Estamos no $curso em $ano na area de $area </p>";
 define("AUTOR", "tiago"); // tradicional, antiga
 const EMPRESA = "ABC tecnologia"; //nova, modern
 
-echo  "<p>"."o ".AUTOR." trabalha na ".EMPRESA."</p>"
+echo  "<p>"."o" .AUTOR." trabalha na ".EMPRESA."</p>"
 ?>
  <!-- fechando -->
 
- <h2>Saida de dados simplificada/direta</h2> 
+ <h2 >Saida de dados simplificada/direta</h2> 
  <div class="pai1">
- <p class="alert alert-success">Estamos no <span class="text-bg-danger"><?= $curso ?></span> Em <?= $ano ?>.</p>
+ <p class="alert alert-success">Estamos no <span class="text-bg-danger" ><?=$curso?></span> Em <?=$ano?>.</p>
  </div>
  
- <p>o <?= AUTOR ?> trabalha na <?= EMPRESA?> .</p>  <!-- -->
+ <p>o <?=AUTOR?> trabalha na <?=EMPRESA?> .</p>  <!-- -->
 </body>
 </html>
