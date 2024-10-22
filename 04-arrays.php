@@ -16,15 +16,39 @@
         <?php
         // array númerico/tradicional
         $alunos = ['ruan', "rafa", 'couto', 'rocha'];
-        $cores = ['rosa','roxo','verde','azul','preto'];
+        $cores = array('rosa', 'roxo', 'verde', 'azul', 'preto');
         ?>
 
         <h2>acessando os dados da array</h2>
-        <p>alunos : <?=$alunos[2]?> </p>
-        <p>a cor que eu escolho é : <?=$cores[2]?></p>
+        <p>alunos : <?= $alunos[2] ?> </p>
+        <p>a cor que eu escolho é : <?= $cores[2] ?></p>
+        <hr>
+
+<?php
+//array associativo
+$filme = [
+    "nome" => "ruan",
+    "idade"  => 17,
+    "bairro" => "itaquera",
+    "genero" => "masculino"
+ 
+];
+?>
+    <h2>acessando os dados associativo</h2>
+    <hr> 
+    <p><br>nome do cliente : <?=$filme['nome']?><br> idade : <?= $filme['idade']?><br>gênero : <?= $filme['genero']?><br>bairro : <?=$filme['bairro']?></p> 
+    
+
+    <ul>Comandos úteis para análise de arrays
+    <li>print_r</li>
+  <pre> <code> <?= print_r($alunos)?></code></pre>
+    <li>var_dump(nomearray)</li>
+    
+    <pre><code><?= var_dump($alunos)?></code></pre>
+    </ul>
+
 
     </div>
-
 
 
 
