@@ -7,6 +7,7 @@
     <style>
         ol{
             font-size: 44px;
+            
         }
         li{font-size: 22px;}
     </style>
@@ -24,10 +25,6 @@ $dados = [
 
 
 ?>    
-
-
-
-
 
 
  <ol> dados :
