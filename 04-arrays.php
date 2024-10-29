@@ -52,7 +52,7 @@ $filme = [
 
 
 
-
+    <?php include "redes-sociais.html"?>
 
 </body>
 

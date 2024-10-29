@@ -29,7 +29,20 @@
     <ol>
 
         <?php
-        $meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+        $meses = [
+            "janeiro",
+            "fevereiro", 
+            "março", 
+            "abril", 
+            "maio", 
+            "junho", 
+            "julho", 
+            "agosto", 
+            "setembro", 
+            "outubro", 
+            "novembro", 
+            "dezembro"
+        ];
 
         foreach ($meses as $mes) {
         ?>
