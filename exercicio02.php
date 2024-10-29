@@ -10,7 +10,6 @@
             font-size: 25px;
         }
     </style>
-
 </head>
 <body>
     <div class="container">
